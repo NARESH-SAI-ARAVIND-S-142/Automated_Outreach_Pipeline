@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick question</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #2d3748; line-height: 1.7; max-width: 580px; margin: 0 auto; padding: 32px 20px; background-color: #ffffff;">
+
+  <!-- Greeting -->
+  <p style="font-size: 16px; margin-bottom: 16px;">
+    Hi {{first_name}},
+  </p>
+
+  <!-- Hook — reference their company to show this isn't a blast -->
+  <p style="font-size: 15px; margin-bottom: 16px;">
+    I came across <strong>{{company_name}}</strong> while researching companies
+    in your space and was genuinely impressed by what your team has built.
+  </p>
+
+  <!-- Value prop — brief and specific -->
+  <p style="font-size: 15px; margin-bottom: 16px;">
+    As <strong>{{title}}</strong>, you're likely thinking about how to reach new
+    customers without burning through your team's bandwidth on manual outbound.
+  </p>
+
+  <p style="font-size: 15px; margin-bottom: 16px;">
+    We've built an AI-powered outreach engine that automates the entire prospecting
+    pipeline — from identifying lookalike companies to sending personalized emails —
+    so your team can focus on closing, not sourcing.
+  </p>
+
+  <p style="font-size: 15px; margin-bottom: 16px;">
+    Companies similar to {{company_name}} typically see a <strong>3× increase in
+    qualified meetings</strong> within the first month.
+  </p>
+
+  <!-- Soft CTA — ask for time, not a sale -->
+  <p style="font-size: 15px; margin-bottom: 24px;">
+    Would you be open to a quick 15-minute call this week to see if this could
+    be useful for your team? Happy to share a quick demo.
+  </p>
+
+  <!-- Sign-off -->
+  <p style="font-size: 15px; margin-bottom: 4px;">
+    Best,<br>
+    <strong>{{sender_name}}</strong>
+  </p>
+
+  <!-- Divider -->
+  <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 32px 0 16px;">
+
+  <!-- Footer — compliance -->
+  <p style="font-size: 12px; color: #a0aec0; line-height: 1.5;">
+    You're receiving this email because of your role at {{company_name}}.
+    If this isn't relevant, simply reply "unsubscribe" and I'll make sure
+    you don't hear from me again.
+  </p>
+
+</body>
+</html>
